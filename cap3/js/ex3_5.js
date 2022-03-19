@@ -3,7 +3,7 @@ function calcularRaiz() {
     var inNumero = document.getElementById("inNumero");
     var outResposta = document.getElementById("outResposta");
 
-    // obtém conteúdo do campo inNumero
+    // Obtém conteúdo do campo inNumero
     var numero = Number(inNumero.value);
 
     // se não preencheu ou Not-a-Number(NaN)
