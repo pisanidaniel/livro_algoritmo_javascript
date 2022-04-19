@@ -10,7 +10,6 @@ function registrarConta() {
     // cria referência aos elementos da página manipulados pela function
     var inDescricao = document.getElementById("inDescricao");
 
-
     var inValor = document.getElementById("inValor");
     var outListaContas = document.getElementById("outListaContas");
     var outTotal = document.getElementById("outTotal");
