@@ -16,7 +16,7 @@ function mostrarTabuada() {
     var resposta = "";
 
     // cria um laço de repetição
-    for (var i = 1; i <= 19; i++) {
+    for (var i = 1; i <= 10; i++) {
         // a variável resposta vai acumulando os novos conteúdos
         resposta = resposta + numero + "x" + i + " = " + numero * i + "\n";
     }

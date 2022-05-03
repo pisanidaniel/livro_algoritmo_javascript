@@ -23,13 +23,15 @@ function calcularChinchilas() {
     }
 
     var resultado = "";
+    var total = chinchilas;
 
     for (var i = 1; i <= anos; i++) {
 
-        resultado = resultado + i + 'º' + ' ano' + '\n';
+        resultado = resultado + i + 'º' + ' Ano: ' + total + '\n';
+        total = total * 3;
 
     }
-       
+
     outResposta.textContent = resultado;
 }
 
